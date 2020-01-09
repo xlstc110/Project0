@@ -106,6 +106,8 @@ func main(){
 			} else if y == 2{
 				fmt.Println("Accepted banker's offer, here is the prize you earned: ")
 				fmt.Println(offer)
+				fmt.Println("Here is the prize inside your luckybox")
+				fmt.Println(luckybox)
 				break
 			}
 		}
