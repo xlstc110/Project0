@@ -45,14 +45,14 @@ func main(){
 		//drop boxes that have been selected
 		box[lucky1-1] = " "
 
-		fmt.Println(Value)
+		
 
 		fmt.Println(" ")
 
 		for {
 
 			fmt.Println(" ")
-			fmt.Println(Value)
+			
 			fmt.Println(box)
 			//start to select the boxes to be dropped
 			var select1 int
