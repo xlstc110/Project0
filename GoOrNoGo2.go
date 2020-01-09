@@ -45,6 +45,8 @@ func main(){
 		//drop boxes that have been selected
 		box[lucky1-1] = " "
 
+		fmt.Println(Value)
+
 		fmt.Println(" ")
 
 		for {
@@ -86,7 +88,7 @@ func main(){
 			fmt.Println(pool)
 			//banker's offer
 			offer := pool/(remain+1)
-			fmt.Println("The banker is offering to buy you lucky box, if you take the offer, the game will end and you can go out with the money. Or you can reject the offer and continue the game")
+			fmt.Println("The banker is offering to buy your lucky box, if you take the offer, the game will end and you can go with the price. Or you can reject the offer and continue the game")
 			fmt.Println(offer)
 
 			var y int
@@ -99,9 +101,11 @@ func main(){
 				fmt.Println(luckybox)
 				break
 		
-			} else if y==1 {
+			} else if y == 1 {
 			
 			} else if y == 2{
+				fmt.Println("Accepted banker's offer, here is the prize you earned: ")
+				fmt.Println(offer)
 				break
 			}
 		}
