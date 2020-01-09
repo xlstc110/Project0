@@ -17,8 +17,7 @@ func main(){
 		fmt.Println(" ")
 
 		box := []string{
-		"box 1","box 2","box 3","box 4",
-		//"box 5","box 6","box 7","box 8","box 9","box 10",
+		"box 1","box 2","box 3","box 4","box 5","box 6","box 7","box 8","box 9","box 10",
 		}
 		fmt.Println(box)
 		fmt.Println(" ")
@@ -39,7 +38,7 @@ func main(){
 		var luckybox int
 	
 		//select user's lucky box and keep the value.
-		fmt.Println("Now you have 4 boxes, please select one box that you would like to keep as your lucky box.")
+		fmt.Println("Now you have 10 boxes, please select one box that you would like to keep as your lucky box.")
 		fmt.Scanln(&lucky1)
 		luckybox = Value[box[lucky1-1]]
 		
