@@ -6,15 +6,15 @@ import "fmt"
 func main(){
 	var x int
 
-	fmt.Println("")
+	fmt.Println(" ")
 	fmt.Println("Welcome to the Go Or No Go, what would you like to do?")
-	fmt.Println("")
+	fmt.Println(" ")
 	fmt.Println("1: Play go or no go\t 2: Check the scoreboard")
 	fmt.Scanln(&x)
 
 	if x == 1{
 	
-		fmt.Println("")
+		fmt.Println(" ")
 
 		box := []string{
 		"box 1","box 2","box 3","box 4",
@@ -112,6 +112,6 @@ func main(){
 		
 }
 
-//func dropbox(){
+
 
 	
