@@ -96,7 +96,7 @@ func main(){
 			fmt.Scanln(&y)
 
 			if remain == 0{
-				fmt.Println("Sorry, all the remaining boxese are gone, you can now go with you luckybox")
+				fmt.Println("All the remaining boxese are gone, you can now go with you luckybox")
 				fmt.Println("Here is your luckybox's value!")
 				fmt.Println(luckybox)
 				break
